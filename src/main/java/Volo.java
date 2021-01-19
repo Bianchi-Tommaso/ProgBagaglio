@@ -1,10 +1,8 @@
-
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class Volo 
 {
-
     private int codice_volo;
     private String destinazione;
     private String data;

@@ -14,7 +14,7 @@ public class ProgBagaglio
        BagaglioAMano b3 = new BagaglioAMano(3, "Linus Torvalds");
        BagaglioAMano b4 = new BagaglioAMano(18, "Elisa Bianchi");
        BagaglioAMano b5 = new BagaglioAMano(76, "Ricahrd Stallman");
-       BagaglioAMano b6 = new BagaglioAMano(87, "Alan Turing"); //-------------
+       BagaglioAMano b6 = new BagaglioAMano(87, "Alan Turing"); 
        BagaglioStiva bs7 = new BagaglioStiva(34, "Olivia Ferrari");
        BagaglioStiva bs8 = new BagaglioStiva(56, "Steve Jobs");
        BagaglioStiva bs9 = new BagaglioStiva(66, "Elon Musk");
@@ -44,8 +44,6 @@ public class ProgBagaglio
        v1.ImportoTotaleTariffe();
        v1.ElencoSoloBagagliMano();
        v1.CalcoloTotalePesoEccedente();
-       v1.ElencoSoloBagagliStiva();
-       
-    }
-    
+       v1.ElencoSoloBagagliStiva();      
+    }   
 }
